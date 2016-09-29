@@ -1527,7 +1527,7 @@
 						TestTargetID = D9EB4E8A18CB4A9400BB2094;
 					};
 					D9EB4E8A18CB4A9400BB2094 = {
-						DevelopmentTeam = 9Q9SMRMCNN;
+						DevelopmentTeam = XN3F428T9E;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 1;
@@ -2438,7 +2438,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.habitrpg.ios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keithba.ios.Habitica;
 				PRODUCT_NAME = Habitica;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2520,7 +2520,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.habitrpg.ios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keithba.ios.Habitica;
 				PRODUCT_NAME = Habitica;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -7,8 +7,11 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
+            buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForTesting = "YES">
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D94461821AB34F5C0015215E"
@@ -35,7 +38,26 @@
                ReferencedContainer = "container:Habitica.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D90576771BD82DB8009BB7BC"
+               BuildableName = "HabitRPGUITests.xctest"
+               BlueprintName = "HabitRPGUITests"
+               ReferencedContainer = "container:Habitica.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D94461821AB34F5C0015215E"
+            BuildableName = "HabiticaTests.xctest"
+            BlueprintName = "HabiticaTests"
+            ReferencedContainer = "container:Habitica.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -49,6 +71,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D94461821AB34F5C0015215E"
+            BuildableName = "HabiticaTests.xctest"
+            BlueprintName = "HabiticaTests"
+            ReferencedContainer = "container:Habitica.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -58,6 +89,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D94461821AB34F5C0015215E"
+            BuildableName = "HabiticaTests.xctest"
+            BlueprintName = "HabiticaTests"
+            ReferencedContainer = "container:Habitica.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
